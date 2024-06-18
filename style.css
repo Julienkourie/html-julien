@@ -1,0 +1,112 @@
+gradient-background {
+  background: linear-gradient(300deg, #f7f7f7, #383031, #979797);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  background-color: black;
+}
+.aboutme {
+  font-family: "DM Serif Display", serif;
+  color: white;
+}
+.hello {
+  color: yellow;
+}
+.me {
+  color: yellow;
+}
+.navigation  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  color: yellow;
+  background-color: black;
+  font-size: 1.1rem;
+}
+.profilepic{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+#features {
+  background-color: #2C3330;
+}
+#testimonial {
+  background-color: black;
+}
+.lead {
+  color: grey;
+}
+.myname {
+  font-size: 3rem;
+  color: white;
+}
+.skills {
+  height: 30px;
+}
+.feature {
+  color: grey;
+  text-align: justify;
+  margin: 0px;
+  padding-top: 40px;
+}
+.fs-2 {
+  color:white;
+}
+.pb-2 {
+  color: white;
+}
+.grid {
+  display: grid;
+  width: 80%;
+  grid-template-rows: 50px 1fr;
+  grid-column: 1fr 1fr 1fr;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  background-color: black;
+}
+.container2 {
+  background-color: #2C3330;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+li {
+  font-family: "DM Serif Display", serif;
+  list-style-type: none;
+}
+.copyright {
+  background-color: #2C3330;
+  color: white;
+  font-size: 15px;
+  margin: 0px;
+}
+a {
+  text-decoration-line: none;
+}
